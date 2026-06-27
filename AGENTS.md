@@ -17,24 +17,12 @@ Apply these rules when designing a frontend or frontend components:
 - Prefer Next.js for frontend work because this project is intended to work well with Vercel.
 - Build screens so they can be tested locally during development and deployed to Vercel without app-specific rewrites.
 - After creating or changing UI, provide the exact command and local URL needed to run and inspect it.
-- Use a neobrutalist interface style: bold, playful, high-contrast, useful, and intentionally chunky.
-- Favor flat color blocks, thick black borders, hard edges, and offset shadows over soft gradients, glassmorphism, subtle shadows, or overly polished SaaS styling.
-- Prioritize visual clarity and contrast. Never place white text on a white or near-white background.
-- Use a light default theme unless the user explicitly asks for dark mode.
-- Use a small, punchy neobrutalist color palette: warm off-white or pale yellow backgrounds, near-black text and borders, one saturated accent for primary actions, flat pastel fills for secondary surfaces, and distinct red or amber tones for error or warning states.
-- Do not rely on color alone to communicate state. Pair color with labels, icons, borders, or helper text.
-- Keep typography readable and assertive, with clear headings, strong weights, comfortable body text, and consistent font sizes across similar elements.
-- Use whitespace intentionally, but keep layouts compact enough to feel like a working app rather than a landing page.
-- Keep the user experience pleasant and resilient. Containers, cards, buttons, inputs, and message areas should grow or adapt to fit their contents.
-- Do not let text overflow, clip, or overlap other elements at common desktop and mobile widths.
-- Use responsive layouts that work on mobile, tablet, and desktop.
-- Keep interactive elements easy to identify and click, with visible hover, focus, disabled, loading, and error states.
-- Use consistent spacing, thick borders, square or low-radius corners, and offset shadows across repeated UI elements.
-- Use hover and active states that feel physical, such as reducing or moving the offset shadow.
-- Prefer simple, familiar controls over custom interaction patterns unless the feature clearly needs something custom.
+- Pay attention to visual clarity and contrast. Do not place white text on a white background.
+- Keep the user experience pleasant and resilient. Boxes and containers should grow to fit their contents.
+- Use a neobrutalist style for all frontend work, with clean and understated basic colors.
+- Base the color scheme on navy blue and eggshell white.
+- Use tints of grey for accent colors.
 - Use password-style text inputs for sensitive information.
-- Label all inputs clearly and include useful placeholder or helper text where it reduces confusion.
-- Show validation errors close to the relevant field and write them in plain language.
 - Avoid exposing secrets, API keys, or passwords in visible UI, logs, screenshots, or examples.
 
 ## README Rules
