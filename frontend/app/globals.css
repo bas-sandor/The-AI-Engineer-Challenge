@@ -320,8 +320,8 @@ textarea:focus {
   gap: 9px;
   border: 3px solid var(--border);
   border-radius: 6px;
-  background: var(--primary);
-  color: var(--surface);
+  background: var(--grey-100);
+  color: var(--ink);
   font-weight: 950;
   box-shadow: var(--shadow-small);
   transition:
@@ -333,7 +333,7 @@ textarea:focus {
 
 .send-button:hover:not(:disabled),
 .send-button:focus-visible {
-  background: var(--primary-hover);
+  background: var(--grey-300);
   box-shadow: 2px 2px 0 var(--ink);
   outline: none;
   transform: translate(3px, 3px);
