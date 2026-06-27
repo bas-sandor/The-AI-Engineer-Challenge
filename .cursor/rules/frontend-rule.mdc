@@ -5,9 +5,37 @@ alwaysApply: false
 ---
 ### Rules for Frontend
 
-- You must pay attention to visual clarity and contrast. Do not place white text on a white background.
-- You must ensure the UX is pleasant. Boxes should grow to fit their contents, etc. 
-- When asking the user for sensitive information - you must use password style text-entry boxes in the UI.
-- You should use Next.js as it works best with Vercel. 
-- This frontend will ultimately be deployed on Vercel, but it should be possible to test locally. 
-- Always provide users with a way to run the created UI once you have created it.
+- Use Next.js for frontend work because this project is intended to work well with Vercel.
+- Build screens so they can be tested locally during development and deployed to Vercel without app-specific rewrites.
+- Always provide the user with the exact command and local URL needed to run and inspect any created UI.
+
+### Visual Style
+
+- Use a clean, modern, approachable interface style that feels useful and calm rather than flashy.
+- Prioritize visual clarity and contrast. Never place white text on a white or near-white background.
+- Use a light default theme unless the user explicitly asks for dark mode.
+- Use a small, consistent color palette:
+  - Background: off-white or very light neutral.
+  - Text: dark neutral with strong contrast.
+  - Primary actions: one clear accent color.
+  - Secondary surfaces: subtle neutral fills and borders.
+  - Error or warning states: distinct red or amber tones with readable text.
+- Do not rely on color alone to communicate state. Pair color with labels, icons, borders, or helper text.
+- Keep typography readable: clear headings, comfortable body text, and consistent font sizes across similar elements.
+- Use whitespace intentionally so the interface feels breathable, but avoid oversized empty areas that make simple workflows feel sparse.
+
+### Layout and Components
+
+- Ensure the UX is pleasant and resilient. Containers, cards, buttons, inputs, and message areas should grow or adapt to fit their contents.
+- Do not let text overflow, clip, or overlap other elements at common desktop and mobile widths.
+- Use responsive layouts that work on mobile, tablet, and desktop.
+- Keep interactive elements easy to identify and click, with visible hover, focus, disabled, loading, and error states.
+- Use consistent spacing, border radius, shadows, and borders across repeated UI elements.
+- Prefer simple, familiar controls over custom interaction patterns unless the feature clearly needs something custom.
+
+### Forms and Sensitive Information
+
+- When asking the user for sensitive information, use password-style text entry fields.
+- Label all inputs clearly and include useful placeholder or helper text where it reduces confusion.
+- Show validation errors close to the relevant field and write them in plain language.
+- Avoid exposing secrets, API keys, or passwords in visible UI, logs, screenshots, or examples.
