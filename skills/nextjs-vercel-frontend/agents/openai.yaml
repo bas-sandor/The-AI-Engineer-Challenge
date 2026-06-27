@@ -1,0 +1,4 @@
+interface:
+  display_name: "Next.js + Vercel Frontend"
+  short_description: "Build Next.js frontends for Vercel"
+  default_prompt: "Use $nextjs-vercel-frontend to build a Next.js frontend that follows this repo's rules and deploys cleanly to Vercel."

@@ -13,7 +13,7 @@ This repository also contains Cursor-specific rules in `.cursor/rules/`. Non-Cur
 
 Apply these rules when designing a frontend or frontend components:
 
-- In Codex, use the personal `$nextjs-vercel-frontend` skill as the equivalent of the training's Cursor custom-docs setup for Next.js and Vercel guidance.
+- Use the repo-local `skills/nextjs-vercel-frontend` skill as the equivalent of the training's Cursor custom-docs setup for Next.js and Vercel guidance. In Codex, `$nextjs-vercel-frontend` may also be installed as a personal skill for automatic discovery.
 - Prefer Next.js for frontend work because this project is intended to work well with Vercel.
 - Build screens so they can be tested locally during development and deployed to Vercel without app-specific rewrites.
 - After creating or changing UI, provide the exact command and local URL needed to run and inspect it.
