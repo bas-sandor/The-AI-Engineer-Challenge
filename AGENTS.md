@@ -22,6 +22,8 @@ Apply these rules when designing a frontend or frontend components:
 - Use a neobrutalist style for all frontend work, with clean and understated basic colors.
 - Base the color scheme on navy blue and eggshell white.
 - Use tints of grey for accent colors.
+- Make navy blue visible in major structural elements such as headers, primary actions, borders, or active states.
+- Avoid bright candy colors; keep the design understated even when using neobrutalist borders and shadows.
 - Use password-style text inputs for sensitive information.
 - Avoid exposing secrets, API keys, or passwords in visible UI, logs, screenshots, or examples.
 

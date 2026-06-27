@@ -15,3 +15,5 @@ alwaysApply: false
 with clean and understated basic colors.
 - Color schemes should be based on navy blue and eggshell white
 - Accent colors should be tints of grey
+- Navy blue should be visible in major structural elements such as headers, primary actions, borders, or active states.
+- Avoid bright candy colors; keep the design understated even when using neobrutalist borders and shadows.
